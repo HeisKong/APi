@@ -23,3 +23,5 @@ lombok 1.18.32
 ``
 
 The controller receives the data and sends it to the service via the addUser, adds the value to the entity, and then checks the data to see if the user id and token id are empty. If empty, it sends an error back or saves it to the database.
+
+swagger link: ``http://localhost:8080/apitest/swagger-ui.html``
